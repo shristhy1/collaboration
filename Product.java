@@ -19,6 +19,7 @@ public class Product {
     }
 
     public int getPrice() {
+//hello
         return price;
 
     }
