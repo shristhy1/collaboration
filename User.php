@@ -18,3 +18,23 @@ class Product {
 $product = new Product('Mac Pro');
 
 echo $product->info();
+
+
+
+
+
+class test {
+
+    private $count; 
+
+    public function setCount( $value )    
+    {
+            
+        $this->count = $value;    
+    }
+
+    public function getCount()    
+    {                
+        return $this->count;    
+    }    
+}
