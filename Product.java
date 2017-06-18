@@ -19,11 +19,11 @@ public class Product {
               
 	}
 
-    public int getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
 
     }
