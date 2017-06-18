@@ -1,9 +1,9 @@
 public class Product {
 
 	protected String title;
-	protected Float price;
+	protected Double price;
 
-	public Product(String title, Float price) {
+	public Product(String title, Double price) {
 		this.title = title;
 		this.price = price;
 	}
