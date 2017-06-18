@@ -13,4 +13,13 @@ public class Product {
 
 		System.out.println("The price of " + laptop.title + " is " + laptop.price);
 	}
+
+    public int getTitle() {
+        return title;
+    }
+
+    public int getPrice() {
+        return price;
+
+    }
 }
