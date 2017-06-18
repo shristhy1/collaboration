@@ -13,4 +13,9 @@ public class Product {
 
 		System.out.println("The price of " + laptop.title + " is " + laptop.price);
 	}
+	
+	public void show(){
+	System.out.println("There is soon going to be some magic");
+	}
 }
+
